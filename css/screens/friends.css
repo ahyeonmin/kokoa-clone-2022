@@ -1,0 +1,17 @@
+.friends-screen {
+    margin-top: 15px;
+    padding: 0 var(--horizontal-space);
+}
+
+#friends-display-link {
+    text-align: center;
+    margin-top: 15px;
+    padding: 11px 0;
+    background-color: #fafafa;
+    font-size: 14px;
+}
+
+#friends-display-link i {
+    margin: 0 5px;
+    color: rgba(0, 0, 0, 0.2);
+}
