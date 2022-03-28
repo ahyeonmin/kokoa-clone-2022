@@ -1,0 +1,15 @@
+.settings__setting {
+    border-bottom: var(--main-border);
+    border-color: rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.settings__setting i {
+    margin-right: 7px;
+}
+
+.settings__setting:last-child .settings__setting-column:last-child span{
+    color: var(--gray);
+}
