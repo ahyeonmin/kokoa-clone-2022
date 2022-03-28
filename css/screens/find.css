@@ -1,0 +1,140 @@
+.find-icons {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 25px;
+}
+
+.find-icons__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.find-icons__icon i {
+    font-size: 27px;
+    margin-bottom: 15px;
+}
+
+.find-icons__icon span {
+    font-size: 15px;
+}
+
+.recommended-friends {
+    border-top: var(--main-border);
+    border-bottom: var(--main-border);
+    padding: 17px 0;
+    margin: 5px 0;
+}
+
+.recommended-friends__title {
+    font-size: 14px;
+    color: var(--gray);
+}
+
+.recommended-friends span {
+    display: block;
+    text-align: center;
+    margin: 85px 0;
+    color: var(--gray);
+}
+
+.open-chat__header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: var(--gray);
+    padding-top: 12px;
+    padding-bottom: 20px;
+}
+
+.open-chat__header span {
+    opacity: 0.6;
+}
+
+.open-chat-post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.open-chat-post__title {
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.open-chat-post__hashtag {
+    font-size: 15px;
+    color: var(--gray);
+}
+
+.open-chat-post__members {
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+    font-size: 14px;
+}
+
+.open-chat-post__members img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.open-chat-post__member-count {
+    color: var(--gray);
+}
+
+.open-chat-post__members .divider {
+    width: 1px;
+    height: 10px;
+    background-color: var(--gray);
+    margin: 0 5px;
+}
+
+.open-chat-post__status {
+    color: rgb(255, 116, 139);
+}
+
+.open-chat-post__photo {
+    position: relative;
+}
+
+.open-chat-post__photo img {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+.open-chat-post__heart-count {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 13px;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 15px;
+    position: absolute;
+    right: 6px;
+    bottom: 8px;
+}
+
+.open-chat-post__heart-count i {
+    margin-right: 2px;
+}
+
+.open-chat-post:last-child {
+    border-top: var(--main-border);
+    padding-top: 14px;
+}
+
+.screen-header__icons-point {
+    position: relative;
+}
+
+.screen-header__icons-point .point {
+    position: absolute;
+    top: 2px;
+    left: 17px;
+}

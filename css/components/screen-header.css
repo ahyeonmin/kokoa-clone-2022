@@ -2,7 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 20px 0 20px;
+    padding: 50px 23px 0 23px;
+    margin-bottom: 15px;
+    position: relative;
 }
 
 .screen-header__title {
@@ -12,4 +14,18 @@
 
 .screen-header__icons span {
     margin-left: 25px;
+}
+
+.screen-header__icons-point {
+    position: relative;
+}
+
+.screen-header__icons-point span:last-child {
+    position: absolute;
+    right: 18px;
+    bottom: 27px;
+}
+
+.screen-header_chats {
+    margin-bottom: 35px;
 }

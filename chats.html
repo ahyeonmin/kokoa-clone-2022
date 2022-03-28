@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friends - Kokoa Clone</title>
+    <title>Chats - Kokoa Clone</title>
 </head>
 <body>
    <div class="status-bar">
@@ -23,52 +23,29 @@
        </div>
    </div>
 
-   <div class="screen-header">
-       <h1 class="screen-header__title">Friends</h1>
+   <div class="screen-header screen-header_chats">
+       <h1 class="screen-header__title">Chats</h1>
        <div class="screen-header__icons">
            <span><i class="fas fa-search fa-lg"></i></span>
+           <span><i class="far fa-comment-dots fa-lg"></i></span>
            <span><i class="fas fa-music fa-lg"></i></span>
            <span><i class="fas fa-cog fa-lg"></i></span>
        </div>
    </div>
 
-   <div id="friends-display-link">
-       <a>
-        <i class="fas fa-info-circle"></i>Friends Name's Display<i class="fas fa-angle-right"></i>
-       </a>
-   </div>
-
-   <main class="friends-screen">
+   <main class="main-screen">
        <div class="user-component">
            <div class="user-component__column">
                <img src="https://i.pinimg.com/750x/d1/00/b2/d100b20394d62074d974054bd4f22189.jpg"
                class="user-component__avatar user-component__avatar--xl"/>
                <div class="user-component__text">
                    <h4 class="user-component__title">Ahyeon</h4>
-                   <!-- <h5 class="user-component__subtitle">this text whatever</h5 >-->
+                   <h5 class="user-component__subtitle">Please check My Kokoa Account Info.</h5 >
                </div>
             </div>
-            <div class="user-component__column"></div>
-       </div>
-       <div class="friends-screen__channel">
-           <div class="friends-screen__channel-header">
-               <span>Channel</span>
-               <i class="fas fa-angle-up"></i>
-           </div>
-           <div class="user-component">
-               <div class="user-component__column">
-                   <img src="https://i.pinimg.com/750x/d1/00/b2/d100b20394d62074d974054bd4f22189.jpg"
-                   class="user-component__avatar user-component__avatar--sm"/>
-                   <div class="user-component__text">
-                       <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
-                   </div>
-               </div>
-               <div class="user-component__column">
-                   <div>
-                       <span>5</span>
-                       <i class="fas fa-angle-right"></i>
-                   </div>
-               </div>
+            <div class="user-component__column">
+               <span class="user-component__time">15:23</span>
+               <div class="badge">3</div>
             </div>
        </div>
    </main>
@@ -77,13 +54,13 @@
        <ul class="nav__list">
            <li class="nav__btn">
                <a href="friends.html" class="nav__link">
-                   <i class="fas fa-user fa-2x"></i>
+                <i class="far fa-user fa-2x"></i>
                </a>
            </li>
            <li class="nav__btn">
                <a href="chats.html" class="nav__link">
                    <span class="nav__notification badge"> 3 </span>
-                   <i class="far fa-comment fa-2x"></i>
+                   <i class="fas fa-comment fa-2x"></i>
                </a>
            </li>
            <li class="nav__btn" class="nav__link">
