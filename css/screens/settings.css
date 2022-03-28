@@ -4,12 +4,22 @@
     padding: 20px 0;
     display: flex;
     justify-content: space-between;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .settings__setting i {
     margin-right: 7px;
+    color: rgba(0, 0, 0, 0.6);
 }
 
-.settings__setting:last-child .settings__setting-column:last-child span{
+.settings__setting--sub{
     color: var(--gray);
+}
+
+.settings-list .settings__setting:last-child {
+    padding-bottom: 15px;
+}
+
+.settings-list {
+    margin-top: 30px;
 }

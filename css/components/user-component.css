@@ -29,6 +29,7 @@
  .user-component__title {
      font-size: 21px;
      font-weight: 600;
+     color: rgba(0, 0, 0, 0.7);
  }
 
  .user-component__subtitle {
@@ -51,4 +52,12 @@
  .user-component__time {
      display: block;
      margin-bottom: 8px;
+ }
+
+ .user-component__column .fa-angle-right {
+     color: var(--gray);
+ }
+
+ .icon-row__icon span {
+     color: var(--gray);
  }

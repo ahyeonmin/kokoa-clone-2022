@@ -29,3 +29,13 @@
 .screen-header_chats {
     margin-bottom: 35px;
 }
+
+@keyframes rotateCog {
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header .fa-cog:hover {
+    animation: rotateCog 1.5s linear infinite;
+}
