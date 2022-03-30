@@ -58,7 +58,8 @@
 }
 
 #splash-screen {
-    background-color: var(--pink);
+    background-image: url('../../images/background.PNG');
+    background-size: cover;
     position: absolute;
     height: 100vh;
     width: 100vw;
@@ -74,4 +75,5 @@
 #splash-screen img {
     width: 300px;
     border-radius: 40px;
+    box-shadow: 1px 1px 15px var(--pink);
 }

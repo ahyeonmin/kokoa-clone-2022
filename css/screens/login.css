@@ -9,11 +9,14 @@
 .welcome-header__title {
     margin-bottom: 20px;
     font-size: 25px;
+    text-shadow: 2px 2px 25px var(--pink);
 }
 
 .welcome-header__text {
     width: 45%;
     opacity: 0.4;
+    text-shadow: 2px 2px 15px var(--pink);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 #login-form {
@@ -24,11 +27,13 @@
 
 #login-form input {
     border: none;
-    padding: 15px 0;
-    font-size: 18px;
+    padding: 15px 10px;
+    font-size: 15px;
+    color: black;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     transition: border-color 0.3s ease-in-out;
     margin-bottom: 25px;
+    box-shadow: 2px 2px 20px var(--pink);;
 }
 
 #login-form input:not([type="submit"]) {
@@ -50,6 +55,8 @@
     cursor: pointer;
     padding: 20px 0;
     border-radius: 5px;
+    font-size: 18px;
+    color: black;
 }
 
 #login-form a {
@@ -57,4 +64,5 @@
     text-decoration: none;
     color: inherit;
     font-size: 13px;
+    text-shadow: 2px 2px 10px var(--pink);
 }
