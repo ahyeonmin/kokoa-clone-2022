@@ -6,7 +6,9 @@
     justify-content: center;
     padding: 5px 3px;
     color: white;
-    font-size: 13px;
+    font-size: 12px;
+    background-color: black;
+    z-index: 2;
 }
 
 .status-bar__column {
