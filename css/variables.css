@@ -1,6 +1,7 @@
 :root {
     --pink: #FEE3F1;
+    --darkpink: rgb(143, 99, 106);
+    --gray: rgba(255, 255, 255, 0.4);
     --horizontal-space: 20px;
     --main-border: 1px solid rgba(0, 0, 0, 0.2);
-    --gray: rgba(255, 255, 255, 0.4);
 }

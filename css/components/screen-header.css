@@ -8,8 +8,9 @@
 }
 
 .screen-header__title {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 600;
+    text-shadow: 1px 1px 10px var(--pink);
 }
 
 .screen-header__icons span {
@@ -38,4 +39,5 @@
 
 .screen-header .fa-cog:hover {
     animation: rotateCog 1.5s linear infinite;
+    cursor: pointer;
 }

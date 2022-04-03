@@ -1,7 +1,7 @@
 .friends-screen {
     margin: 15px 0;
     padding: 0 var(--horizontal-space);
-    height: 110vh;
+    height: 113vh;
 }
 
 #friends-display-link {
@@ -17,7 +17,7 @@
 }
 
 .friends-screen__channel {
-    margin-top: 22px;
+    margin-top: 5px;
     border-top: var(--main-border);
     padding-top: 15px;
 }
@@ -30,7 +30,7 @@
 }
 
 .friends-screen__friends {
-    margin-top: 20px;
+    margin-top: 15px;
     border-top: var(--main-border);
     padding-top: 15px;
 }
@@ -44,7 +44,6 @@
 
 .friends-screen__friends .user-component__column {
     display: flex;
-    margin: 10px 0;
 }
 
 @keyframes HideSplashScreen {
@@ -75,5 +74,5 @@
 #splash-screen img {
     width: 300px;
     border-radius: 40px;
-    box-shadow: 1px 1px 15px var(--pink);
+    box-shadow: 3px 3px 60px var(--darkpink);
 }

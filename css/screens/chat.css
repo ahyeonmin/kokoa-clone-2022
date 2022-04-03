@@ -21,7 +21,7 @@
     color: white;
     background-color: rgba(255, 255, 255, 0.2);
     padding: 6px 10px;
-    font-size: 12px;
+    font-size: 13px;
     border-radius: 25px;
     margin-bottom: 30px;
 }
@@ -78,18 +78,51 @@
 }   
 
 .message__bubble {
+    position: relative;
     background-color: white;
     color: black;
     padding: 8px 8px;
     border-radius: 15px;
     border-top-left-radius: 0;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .message__time {
     font-size: 11px;
     margin-left: 3px;
     opacity: 0.7;
+}
+
+.message__num-lovin {
+    position: absolute;
+    bottom: 4px;
+    left: 105px;
+    font-size: 11px;
+    color: var(--pink);
+}
+
+.message__num-lovin--second {
+    position: absolute;
+    bottom: 15px;
+    left: 35px;
+    font-size: 11px;
+    color: var(--pink);
+}
+
+.message__num-vanilla {
+    position: absolute;
+    bottom: 15px;
+    left: 168px;
+    font-size: 11px;
+    color: var(--pink);
+}
+
+.message__num-own {
+    position: absolute;
+    bottom: 15px;
+    right: 115px;
+    font-size: 11px;
+    color: var(--pink);
 }
 
 .message-row--own {
