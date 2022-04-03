@@ -28,6 +28,7 @@
 #login-form input {
     border: none;
     padding: 15px 10px;
+    font-family: 'DOSGothic';
     font-size: 15px;
     color: black;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
