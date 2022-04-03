@@ -1,5 +1,6 @@
 # Kokoa Talk 2022 CLONE
 
-CSS got so much better !
+## Sugar Talk
 
-to be continued .....👶
+### Capture
+<img src="capture.png" style="width: 400px"/>
