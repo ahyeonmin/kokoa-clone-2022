@@ -2,5 +2,5 @@
 
 ## Sugar Talk
 
-### Capture
+### Screen
 <img src="capture.png" style="width: 400px"/>
